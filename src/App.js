@@ -106,12 +106,22 @@ function App() {
                   <li>Июль 2021-Ноябрь 2021</li>
               </ul>
             </div>
-            <div>
+            <div className='border-b-2 border-indigo-500 pb-5'>
               <div class="uppercase tracking-wide text-xl text-indigo-500 font-semibold">МОНЕКС ТРЕЙДИНГ</div>
               <p class="block mt-1 text-lg leading-tight font-medium text-black">Розничная торговля,Одежда, Парфюмерия,Нижнее белье</p>
               <p class="mt-2 text-slate-500">Продавец Victoria’s Secret</p>
               <ul class="mt-2 mx-6 text-slate-500 list-disc">
                   <li>Ноябрь 2021-Июнь 2022</li>
+              </ul>
+            </div>
+            <h1 className='text-gray-900 text-2xl font-extrabold mb-9 pt-5'>Предпочитаемые виды связи со мной:</h1>
+            <div>
+              {/* <div class="uppercase tracking-wide text-xl text-indigo-500 font-semibold">МОНЕКС ТРЕЙДИНГ</div>
+              <p class="block mt-1 text-lg leading-tight font-medium text-black">Розничная торговля,Одежда, Парфюмерия,Нижнее белье</p>
+              <p class="mt-2 text-slate-500">Продавец Victoria’s Secret</p> */}
+              <ul class="mt-2 mx-6 text-slate-500 list-disc">
+                  <li>+7 (903) 141-38-88</li>
+                  <li>Yana.safronova2@mail.ru</li>
               </ul>
             </div>
           </div>
